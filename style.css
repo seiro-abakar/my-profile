@@ -1,0 +1,46 @@
+.color-profile{
+	background-image: url("images/background.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	font-family: 'Lora', serif;
+   font-size: 16px;
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.container .card{
+	background-color: #ef7053;
+	padding: 40px;
+	text-align: center;
+	color: #fff;
+}
+
+.container .card .title{
+	color: black;
+}
+
+.container .card .my-button{
+	 padding: 12px 40px;
+    background-color: #1414ca;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container .card .my-button:hover{
+	background-color: #0f0f86;
+}
+
+}
+.container .card .list-inline{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.container .card a i:hover{
+	background-color: #0f0f86;
+}
